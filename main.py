@@ -37,6 +37,8 @@ def main():
 
     parking_lot.save_parking_lot_state("parking_state.json")
 
+    empty_spots = parking_lot.count_empty_spots()
+    print(f"Number of empty spots: {empty_spots}")
 
 
 if __name__ == "__main__":

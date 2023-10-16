@@ -32,6 +32,9 @@ class ParkingLot:
         else:
             return f"Car with license plate {car} could not be parked in spot {spot_num}"
 
+    def count_empty_spots(self):
+        return sum(1 for spot in self.parking_spots if spot is None)
+
 
 class Car:
     def __init__(self, license_plate):
