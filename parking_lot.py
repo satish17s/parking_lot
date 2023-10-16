@@ -1,5 +1,6 @@
 import json
 
+
 class ParkingLot:
     def __init__(self, square_footage, spot_size=(8, 12)):
         self.spot_size = spot_size

@@ -11,6 +11,7 @@ def generate_random_license_plates(num_plates, plate_length=7):
     return plates
 
 
+
 if __name__ == "__main__":
     num_plates = int(input("Enter the number of random license plates to generate: "))
     generated_plates = generate_random_license_plates(num_plates)

@@ -38,5 +38,6 @@ def main():
     parking_lot.save_parking_lot_state("parking_state.json")
 
 
+
 if __name__ == "__main__":
     main()
